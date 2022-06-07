@@ -34,11 +34,10 @@ In this challenge, I was tasked to mirror the design of a QR code using html and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 ### What I learned
 
-In this challenge, I began to understand the necessity of planning out the design. From the sample images, I knew that a white container would always be at the center of the page. I decided to center the div that represented the white container using positioning. From there, I used flexbox to center the text and the QR image within the white container. Then I used grid and grid-template-rows to seperate the text and the QR image to their respected positions (QR image top and text bottom).
+In this challenge, I began to understand the necessity of planning out the design. First, I needed to set a background. Second, I needed to set a white container at the center of the page. Third, I needed to correctly position the images and text. From the challenge, I learned how to properly use flex box to position a white container at the center of the page. To begin, the html and body were indicated to have a height of 100%. Then the background (div classed main) would be indicated to have a width and height of 100% and flexbox would be established. This would center the white container (div classed container) toward the center of the page. 
 
 ```css
 .proud-of-this-css {
@@ -54,4 +53,4 @@ In this challenge, I began to understand the necessity of planning out the desig
 
 ### Continued development
 
-I want to focus a lot more on the initial planning of the design. Along with this, I want to gain more knowldge on html and css especially the CSS cascade principles.
+I want to focus a lot more on the initial planning of the design. Along with this, I want to gain more knowldge on html and css especially using flexbox.
